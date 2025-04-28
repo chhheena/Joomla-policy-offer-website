@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+  <g id="diskette" transform="translate(-1 -1)">
+    <path id="Pfad_13090" data-name="Pfad 13090" d="M22.787,5.613l-4.4-4.4A.733.733,0,0,0,17.867,1H16.4V6.867a1.467,1.467,0,0,1-1.467,1.467H9.067A1.467,1.467,0,0,1,7.6,6.867V1H3.2A2.2,2.2,0,0,0,1,3.2V20.8A2.2,2.2,0,0,0,3.2,23H4.667V16.4a2.2,2.2,0,0,1,2.2-2.2H17.133a2.2,2.2,0,0,1,2.2,2.2V23H20.8A2.2,2.2,0,0,0,23,20.8V6.133A.733.733,0,0,0,22.787,5.613Z" transform="translate(0)" fill="#fff"/>
+    <path id="Pfad_13091" data-name="Pfad 13091" d="M12,1h5.867V6.867H12Z" transform="translate(-2.933 0)" fill="#fff"/>
+    <path id="Pfad_13092" data-name="Pfad 13092" d="M19,21H8.733A.733.733,0,0,0,8,21.733v6.6H19.733v-6.6A.733.733,0,0,0,19,21Z" transform="translate(-1.867 -5.333)" fill="#fff"/>
+  </g>
+</svg>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.0" method="upgrade">
+    <name>com_offer</name>
+    <creationDate>2023-09-21</creationDate>
+    <copyright>2023 goCaution® AG</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <author>goCaution® AG</author>
+    <authorEmail>info@gocaution.ch</authorEmail>
+    <authorUrl>http://</authorUrl>
+    <version>CVS: 1.0.0</version>
+    <description>COM_OFFER_XML_DESCRIPTION</description>
+    
+    
+    
+    <install> <!-- Runs on install -->
+        <sql>
+            <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+        </sql>
+    </install>
+    <update> <!-- Runs on update -->
+        <schemas>
+            <schemapath type="mysql">sql/updates</schemapath>
+        </schemas>
+    </update>
+    <uninstall> <!-- Runs on uninstall -->
+        <sql>
+            <file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+        </sql>
+    </uninstall>
+
+    <files folder="site">
+        <filename>index.html</filename>
+        <filename>offer.php</filename>
+        <filename>controller.php</filename>
+        <filename>router.php</filename>
+        <folder>views</folder>
+        <folder>models</folder>
+        <folder>controllers</folder>
+        <folder>helpers</folder>
+    </files>
+    <media destination="com_offer" folder="media">
+        <folder>js</folder>
+        <folder>css</folder>
+    </media>
+    <languages folder="site/languages">
+        
+			<language tag="fr-FR">fr-FR/fr-FR.com_offer.ini</language>
+			<language tag="de-DE">de-DE/de-DE.com_offer.ini</language>
+			<language tag="it-IT">it-IT/it-IT.com_offer.ini</language>
+    </languages>
+    <administration>
+        
+        <submenu>
+            
+        </submenu>
+        <files folder="administrator">
+            <filename>access.xml</filename>
+            <filename>config.xml</filename>
+            <filename>controller.php</filename>
+            <filename>index.html</filename>
+            <filename>offer.php</filename>
+            <folder>controllers</folder>
+            <folder>assets</folder>
+            <folder>helpers</folder>
+            <folder>models</folder>
+            <folder>sql</folder>
+            <folder>tables</folder>
+            <folder>views</folder>
+        </files>
+        <languages folder="administrator/languages">
+            
+			<language tag="fr-FR">fr-FR/fr-FR.com_offer.ini</language>
+			<language tag="fr-FR">fr-FR/fr-FR.com_offer.sys.ini</language>
+			<language tag="de-DE">de-DE/de-DE.com_offer.ini</language>
+			<language tag="de-DE">de-DE/de-DE.com_offer.sys.ini</language>
+			<language tag="it-IT">it-IT/it-IT.com_offer.ini</language>
+			<language tag="it-IT">it-IT/it-IT.com_offer.sys.ini</language>
+        </languages>
+    </administration>
+    <config>
+        <fields name="params">
+            <fieldset name="component">
+                <field name="save_history" default="0" />
+            </fieldset>
+        </fields>
+    </config>
+    <plugins>
+        <plugin group="search" plugin="offer"/>
+    </plugins>
+    
+</extension>
+<!-- Component built by the Joomla Component Creator -->
+<!-- http://www.component-creator.com/ -->

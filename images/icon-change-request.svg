@@ -1,0 +1,13 @@
+<svg id="anliegen" xmlns="http://www.w3.org/2000/svg" width="42" height="42.46" viewBox="0 0 42 42.46">
+  <g id="Group_4" data-name="Group 4" transform="translate(13.88 8.655)">
+    <g id="Group_2" data-name="Group 2">
+      <path id="Path_11" data-name="Path 11" d="M24.139,26.046a1.291,1.291,0,0,1,0-2.581,5.412,5.412,0,1,0-5.4-5.412,1.288,1.288,0,1,1-2.577,0,7.979,7.979,0,1,1,7.979,7.993Z" transform="translate(-16.16 -10.06)" fill="#333"/>
+    </g>
+    <g id="Group_3" data-name="Group 3" transform="translate(6.459 18.498)">
+      <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="1.821" cy="1.824" rx="1.821" ry="1.824" fill="#333"/>
+    </g>
+  </g>
+  <g id="Group_5" data-name="Group 5">
+    <path id="Path_12" data-name="Path 12" d="M1.46,42.46a1.428,1.428,0,0,1-1.013-.413,1.462,1.462,0,0,1-.309-1.669L5.179,29.588a19.706,19.706,0,1,1,17.092,9.937,19.533,19.533,0,0,1-9.705-2.581L2.13,42.3A1.427,1.427,0,0,1,1.46,42.46ZM22.271,2.581a17.164,17.164,0,0,0-14.55,26.25l.369.594L3.848,38.511l8.812-4.526.618.379A17.159,17.159,0,1,0,22.271,2.581Z" transform="translate(0)" fill="#333"/>
+  </g>
+</svg>
